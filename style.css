@@ -1,0 +1,49 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto",sans-serif;
+}
+.hero_section{
+    background-image: url(img/d\ 1.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text_container{
+    color: red;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 40px;
+    margin-left: 100px;
+}
+.lg_text{
+      font-size: 72px;
+}
+.h_section{
+    background-color: black;
+}
+.h2_section{
+    color: white;
+    text-align: center;
+}
+.h1{
+    font-size: 70px
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    height: 100px;
+    width: 100px;
+}
+
